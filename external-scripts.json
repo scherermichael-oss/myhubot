@@ -1,4 +1,5 @@
 [
+  "hubot-circleci",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
