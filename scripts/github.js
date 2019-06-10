@@ -32,7 +32,7 @@ module.exports = (robot) => {
         if (err) {
           res.reply(`Sorry, but the following error occured: ${err.message}`);
         } else {
-          res.reply(`Removal of repository ${repository} triggered. See #terraform-test for appoval notification.`);
+          res.reply(`Removal of repository ${repository} triggered. You'll get a request for approval in a miunte. See #terraform-test for the notification.`);
         }
       });
   });
