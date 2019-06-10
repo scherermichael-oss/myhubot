@@ -13,7 +13,7 @@ module.exports = (robot) => {
         if (err) {
           res.reply(`Sorry, but the following error occured: ${err.message}`);
         } else {
-          res.reply(`Creation of repository ${repository} triggered. You'll get a request for approval in a miunte. See #terraform-test for the notification.`);
+          res.reply(`Creation of repository ${repository} triggered. You'll get a request for approval in a miunte. Watch #terraform-test for the notification.`);
         }
       });
   });
@@ -32,7 +32,7 @@ module.exports = (robot) => {
         if (err) {
           res.reply(`Sorry, but the following error occured: ${err.message}`);
         } else {
-          res.reply(`Removal of repository ${repository} triggered. You'll get a request for approval in a miunte. See #terraform-test for the notification.`);
+          res.reply(`Removal of repository ${repository} triggered. You'll get a request for approval in a miunte. Watch #terraform-test for the notification.`);
         }
       });
   });
